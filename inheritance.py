@@ -1,4 +1,4 @@
-# class and object Inheritace
+ class and object Inheritace
 
 
 class vahicle:
@@ -79,3 +79,26 @@ my_book.display_info()
 print(my_book.title)
 
 my_book2.display_info()
+class Vahicle:
+    def start(self):
+        print("Vahicle is starting")
+class Car(Vahicle):
+    pass
+car1 = Car()
+car1.start()
+
+class Animal:
+    def sound(self):
+        print("Animal makes sound")
+class Dog:
+    def sound(Animal):
+        print("Dog barks")
+class Bird:
+    def sound(Animal):
+        print("Bird sing")    
+dog1 = Dog()
+bird1 = Bird()
+a1=Animal()
+dog1.sound()
+bird1.sound()
+a1.sound()
