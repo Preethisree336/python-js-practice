@@ -1,4 +1,4 @@
- class and object Inheritace
+class and object Inheritace
 
 
 class vahicle:

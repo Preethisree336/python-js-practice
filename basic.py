@@ -148,7 +148,7 @@
 
 
 
-'''
+
 fruits=['apple','mango','orange']
 print(fruits)
 fruits.append('kiwi')
@@ -196,8 +196,8 @@ print("sum:",sum(tup))
 for i in tup_list:
       print(i)
 
-'''
-set {},no duplictes
+
+# set {},no duplictes
 s1={1,1,2,2,4,5,6,7,8,8}
 print(s1)
 
