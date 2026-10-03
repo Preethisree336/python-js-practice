@@ -1,136 +1,136 @@
-# star = "*"
-# i = 1
-# while i <= 5:
-#     print(star * i)
-#     i+=1
+star = "*"
+i = 1
+while i <= 5:
+    print(star * i)
+    i+=1
     
-# star = "*"
-# i = 5
-# while i >= 1:
-#     print(star * i)
-#     i-=1
+star = "*"
+i = 5
+while i >= 1:
+    print(star * i)
+    i-=1
 
-# star = '*'
-# for i in range(1,6):
-#     print(star * i)
-# a = 0
-# b = 1
-# for i in range(10):
-#     print(a)
-#     c = a+b
-#     a=b 
-#     b=c
+star = '*'
+for i in range(1,6):
+    print(star * i)
+a = 0
+b = 1
+for i in range(10):
+    print(a)
+    c = a+b
+    a=b 
+    b=c
 
-# a = 0
-# b = 1
-# i = 0
-# while i < 10:
-#     print(a)
-#     c = a+b
-#     a=b
-#     b=c
-#     i+=1
-# n = 5
-# fact = 1
-# for i in range(1,n + 1):
-#     fact = fact * i
-# print(fact)
-# a =[]
-# for i in range(1,11):
-#     print(i)
-#     append.a
-#     print(a)
-# n = 5
-# fact = 1
-# for i in range(1,n+1):
-#     fact = fact * i
-# students = {
-# "student1": {
-#     "name": "preethi",
-#     "age" :19,
-#     "city":"paris"
+a = 0
+b = 1
+i = 0
+while i < 10:
+    print(a)
+    c = a+b
+    a=b
+    b=c
+    i+=1
+n = 5
+fact = 1
+for i in range(1,n + 1):
+    fact = fact * i
+print(fact)
+a =[]
+for i in range(1,11):
+    print(i)
+    append.a
+    print(a)
+n = 5
+fact = 1
+for i in range(1,n+1):
+    fact = fact * i
+students = {
+"student1": {
+    "name": "preethi",
+    "age" :19,
+    "city":"paris"
    
-# },
-# "student2" : {
-#     "name": "kavi",
-#     "age" :26,
-#     "city":"US"
-#       }
-# }
-# print(students["course"])
+},
+"student2" : {
+    "name": "kavi",
+    "age" :26,
+    "city":"US"
+      }
+}
+print(students["course"])
 
-# def greet():
-#     print("hello preethy")
-# greet()    
+def greet():
+    print("hello preethy")
+greet()    
  
-# def greet(a,b):
-#     print(a+b)
-# greet(20,89)    
+def greet(a,b):
+    print(a+b)
+greet(20,89)    
 
-# def add(a,b):
-#     return a * b
-# print(add(5,4))    
-# def greet(name,age):
-#     print("hello",name,age)
-# greet("preethy",19)   
-# def greet(country= "india"):
-#     print("show counrty",country)
+def add(a,b):
+    return a * b
+print(add(5,4))    
+def greet(name,age):
+    print("hello",name,age)
+greet("preethy",19)   
+def greet(country= "india"):
+    print("show counrty",country)
 
-# greet()
-# name = "preethy"
-# age = 18
-# print(f"my name is {name} and iam {age} years old!")
-# def add(*args):
-#     total = 0
-#     for number in args:
-#         total +=number
-#     print(total)
-# add (10,20,30)        
-# def student(**kwargs):
-#     print(kwargs)
-# student(name= "preethy",age = 19,city = "paris")    
-# def order_food(*args,**kwargs):
-#     print("\n Item ordered")
-#     for item in args:
-#         print(f"{item}")
-#     print(f"Delivery detail:sending to {kwargs.get('name')} at {kwargs.get('address')}")        
-# order_food("pizza","coke",name = "sam",address = "paris")
-# def count(n):
-#     if n == 0 :
-#         return
-#     print(n)
-#     count(n-1)
-# count(5)         
+greet()
+name = "preethy"
+age = 18
+print(f"my name is {name} and iam {age} years old!")
+def add(*args):
+    total = 0
+    for number in args:
+        total +=number
+    print(total)
+add (10,20,30)        
+def student(**kwargs):
+    print(kwargs)
+student(name= "preethy",age = 19,city = "paris")    
+def order_food(*args,**kwargs):
+    print("\n Item ordered")
+    for item in args:
+        print(f"{item}")
+    print(f"Delivery detail:sending to {kwargs.get('name')} at {kwargs.get('address')}")        
+order_food("pizza","coke",name = "sam",address = "paris")
+def count(n):
+    if n == 0 :
+        return
+    print(n)
+    count(n-1)
+count(5)         
 
-# def marksheet(name,html,css,java):
-#     total = html+ css+ java
-#     print
-# def countdown(number):
-#     if number <= 0:
-#       print("blast off") 
-#     else:
-#      print(number)
-#      countdown(number-1)
-#      countdown(10)    
-# def calculate_total(prices_list):
-#   total = sum(prices_list)
-#   print(f"The Total bill is ₹ (total)")
-#   shoping.cart=[100,200,400]
-#   calculate_total(shoping.cart)
+def marksheet(name,html,css,java):
+    total = html+ css+ java
+    print
+def countdown(number):
+    if number <= 0:
+      print("blast off") 
+    else:
+     print(number)
+     countdown(number-1)
+     countdown(10)    
+def calculate_total(prices_list):
+  total = sum(prices_list)
+  print(f"The Total bill is ₹ (total)")
+  shoping.cart=[100,200,400]
+  calculate_total(shoping.cart)
 
-# trainer_name = "kavi"
-# def print_info():
-#   topic = "python"
-#   print (f("trainer_name,topic"))
-# def print_user_detail(name,city):
-#   print(f"The Username is {name},They are from {city}")
-#   print_user_detail("preethy","paris")
-# def order_food(*args,**kwargs):
-#     print("\n Item ordered")
-#     for item in args:
-#         print(f"{item}")
-#     print(f"Delivery address:sending to {kwargs.get('name')} at {kwargs.get('address')}")        
-# order_food("pizza","coke",name = "sam",address = "paris")
+trainer_name = "kavi"
+def print_info():
+  topic = "python"
+  print (f("trainer_name,topic"))
+def print_user_detail(name,city):
+  print(f"The Username is {name},They are from {city}")
+  print_user_detail("preethy","paris")
+def order_food(*args,**kwargs):
+    print("\n Item ordered")
+    for item in args:
+        print(f"{item}")
+    print(f"Delivery address:sending to {kwargs.get('name')} at {kwargs.get('address')}")        
+order_food("pizza","coke",name = "sam",address = "paris")
 
 
     

@@ -24,13 +24,13 @@ print("Python:",python)
 print("Total:",total)
 print("Average:",ave)
 
-# if ave >=50:
-#     print("Result: PASS")
-# else:    
-#     print("Result: FAIL")
+if ave >=50:
+    print("Result: PASS")
+else:    
+    print("Result: FAIL")
     
 
-# for i in range(1, 6):
-#     for j in range(i):
-#         print("*", end=" ")
-#     print()
+for i in range(1, 6):
+    for j in range(i):
+        print("*", end=" ")
+    print()

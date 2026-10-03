@@ -15,14 +15,14 @@ class Book:
 book1 = Book("preethyy","Python",900)
 book2 = Book("sam","java",899) 
 
-# class  my_phone:
-#     def __init__(self,brand,serialno):
-#         self.brand = brand
-#         self.__serial__no = serialno
+class  my_phone:
+    def __init__(self,brand,serialno):
+        self.brand = brand
+        self.__serial__no = serialno
 
-#     def get_serialno(self):
-#         return self.__serial__no  
+    def get_serialno(self):
+        return self.__serial__no  
     
     
-# p1 = my_phone('vivo','x90123455')
-# print("secure serialno:",p1.get_serialno())
+p1 = my_phone('vivo','x90123455')
+print("secure serialno:",p1.get_serialno())

@@ -1,31 +1,32 @@
-# name = input("Enter Student Name: ")
+name = input("Enter Student Name: ")
 
-# html = int(input("Enter Html Mark: "))
-# css = int(input("Enter css Mark: "))
-# java = int(input("Enter Java Mark: "))
-# bootstracp = int(input("Enter Bootstracp Mark: "))
-# python = int(input("Enter Python Mark: "))
+html = int(input("Enter Html Mark: "))
+css = int(input("Enter css Mark: "))
+java = int(input("Enter Java Mark: "))
+bootstracp = int(input("Enter Bootstracp Mark: "))
+python = int(input("Enter Python Mark: "))
 
-# total = html + css+ java+ bootstracp+ python
-# ave = total/5
+total = html + css+ java+ bootstracp+ python
+ave = total/5
 
-# print("\n------STUDENT MARKSHEET------")
+print("\n------STUDENT MARKSHEET------")
 
-# print("Student Name:",name)
-# print("Html:",html)
-# print("Css:",css)
-# print("Java:",java)
-# print("Bootstracp:",bootstracp)
-# print("Python:",python)
+print("Student Name:",name)
+print("Html:",html)
+print("Css:",css)
+print("Java:",java)
+print("Bootstracp:",bootstracp)
+print("Python:",python)
 
-# print("Total:",total)
-# print("Average:",ave)
+print("Total:",total)
+print("Average:",ave)
 
-# if ave >=50:
-#     print("Result: PASS")
-# else:    
-#     print("Result: FAIL")
+if ave >=50:
+    print("Result: PASS")
+else:    
+    print("Result: FAIL")
     
+# ----------using tkinter-----
 
 import tkinter as tk
 
